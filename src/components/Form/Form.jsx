@@ -48,7 +48,7 @@ const ContactForm  = ({addContact}) => {
         <label htmlFor="number">Number</label>
         <FieldStyled
             id={id}
-            type="number"
+            type="tel"
             name="number"
             placeholder="enter number" />
         {errors.number && touched.number ? (
